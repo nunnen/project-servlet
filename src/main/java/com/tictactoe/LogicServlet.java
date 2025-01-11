@@ -20,8 +20,9 @@ public class LogicServlet extends HttpServlet {
 
         int index = getSelectedIndex(req);
 
+        field.getField().put(index, Sign.CROSS);
+
         List<Sign> data = field.getFieldData();
-        data.set(index, Sign.CROSS);
 
         session.setAttribute("data", data);
         session.setAttribute("field", field);
