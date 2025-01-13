@@ -15,17 +15,17 @@
 <table>
     <tr>
         <td onclick="window.location='/logic?click=0'">${sessionScope.data.get(0).getSign()}</td>
-        <td onclick="window.location='/logic?click=1'">${sessionScope.data.get(1).getSign()}</td>
+        <td class="vert" onclick="window.location='/logic?click=1'">${sessionScope.data.get(1).getSign()}</td>
         <td onclick="window.location='/logic?click=2'">${sessionScope.data.get(2).getSign()}</td>
     </tr>
     <tr>
-        <td onclick="window.location='/logic?click=3'">${sessionScope.data.get(3).getSign()}</td>
-        <td onclick="window.location='/logic?click=4'">${sessionScope.data.get(4).getSign()}</td>
-        <td onclick="window.location='/logic?click=5'">${sessionScope.data.get(5).getSign()}</td>
+        <td class="hori" onclick="window.location='/logic?click=3'">${sessionScope.data.get(3).getSign()}</td>
+        <td class="hori vert" onclick="window.location='/logic?click=4'">${sessionScope.data.get(4).getSign()}</td>
+        <td class="hori" onclick="window.location='/logic?click=5'">${sessionScope.data.get(5).getSign()}</td>
     </tr>
     <tr>
         <td onclick="window.location='/logic?click=6'">${sessionScope.data.get(6).getSign()}</td>
-        <td onclick="window.location='/logic?click=7'">${sessionScope.data.get(7).getSign()}</td>
+        <td class="vert" onclick="window.location='/logic?click=7'">${sessionScope.data.get(7).getSign()}</td>
         <td onclick="window.location='/logic?click=8'">${sessionScope.data.get(8).getSign()}</td>
     </tr>
 </table>
